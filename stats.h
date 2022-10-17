@@ -7,6 +7,7 @@ struct Stats {
 
 struct Stats compute_statistics(const float* numberset, int setlength);
 
+struct Stats compute_statistics(const float* numberset, int setlength);
 float GetMax(const float* numberset,int setlength);
 float GetAvg(const float* numberset,int setlength);
 float GetMin(const float* numberset,int setlength);
